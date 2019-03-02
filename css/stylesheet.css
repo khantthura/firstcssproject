@@ -14,7 +14,7 @@ h1 {
 }
 h2 {
     font-size: 2.5rem;
-    font-family: 'Merriweather', serif;
+    font-family: 'Rubik', sans-serif;
     color: #0ea5c6;
     font-weight: normal;
 }
@@ -43,18 +43,40 @@ p {
     line-height: 2;
     margin: 0;
 }
+.aa {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+.contact-me {
+    background-color: #cadefc;
+    padding: 30px 0;
+}
 .top-container {
     background-color: #EAF6F6;
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .middle-container {
-    margin: 100px 0;
+    margin: 0;
 }
 
 .bottom-container {
     background-color: #11999E;
     padding: 30px 0 0;
+}
+.welcome {
+    width: 400px;
+    margin-top: 50px;
+}
+.profile {
+    background-color: #f3f8ff;
+    padding: 50px 0;
+}
+.top-title {
+    margin: 0 auto 30px;
+    font-size: 2.5em;
 }
 
 .copyright {
@@ -64,7 +86,7 @@ p {
 }
 
 .skill-row {
-    margin: 100px  auto;
+    margin: 80px  auto;
     width: 50%;
     text-align: left;
     line-height: 2;
@@ -93,12 +115,9 @@ p {
 }
 
 .profile-pic {
-    width: 50%;
+    width: 20%;
 }
-.top-title {
-    padding-top: 30px;
-    font-size: 2.5em;
-}
+
 .intro {
     width: 50%;
     margin: auto;
@@ -107,7 +126,12 @@ p {
     width: 50%;
     margin: 40px auto 60px;
 }
-
+.tag-line {
+    font-size: 1.5rem;
+}
+.tag-line-span {
+    text-decoration: underline;
+}
 /*Custom button*/
 
 .btn {
